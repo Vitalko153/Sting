@@ -11,8 +11,6 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 
-
-
     public class NettyBaseServer {
         public NettyBaseServer() {
             EventLoopGroup auth = new NioEventLoopGroup(1); // light
